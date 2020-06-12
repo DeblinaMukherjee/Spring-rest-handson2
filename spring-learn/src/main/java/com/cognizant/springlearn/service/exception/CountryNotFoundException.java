@@ -6,5 +6,6 @@ import org.springframework.http.HttpStatus;
 @SuppressWarnings("serial")
 @ResponseStatus(value=HttpStatus.NOT_FOUND, reason = "Country not found")
 public class CountryNotFoundException extends Exception{
+	
 
 }
